@@ -35,7 +35,7 @@ export default function Sidebar() {
 
             <ul className="sidebar-menu">
                 <li>
-                    <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
+                    <NavLink to="/tasrnd" end className={({ isActive }) => isActive ? 'active' : ''}>
                         <i className='bx bx-home-alt'></i>
                         <span>Home</span>
                     </NavLink>
