@@ -29,6 +29,7 @@ body {
 /* Sidebar.css */
 .sidebar {
     background: var(--background-color);
+    z-index:100;
     height: 90vh;
     width: 90px;
     position: fixed;
