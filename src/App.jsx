@@ -11,7 +11,7 @@ export default function App() {
         <>
         <Sidebar />
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/tasrnd" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/portfolio" element={<Portfolio />} />
