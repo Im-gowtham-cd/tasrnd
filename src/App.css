@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Rubik+Vinyl&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --primary-color: #a05d9e;
-  --secondary-color: #4B164C;
-  --background-color: #F5F5F5;
-  --dark-bg-color: #2b2b2b;
-  --text-color: #2d2d2d;
-  --dark-text-color: #f3edf4;
-  --light-bg: #f8f0f7;
-  --dark-card-bg: #3b223c;
-  --border-color: #e0d0e0;
-  --dark-border-color: #5b3c5d;
-  --footer-text-color: #f3edf4;
-  --icon-hover-scale: 1.2;
-  --anim-duration: 0.8s;
-  --anim-delay-step: 0.2s;
-  --easing-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
-  --easing-bounce: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    --primary-color: #00AB66;
+    --secondary-color: #008e55;
+    --background-color: white;
+    --dark-bg-color: #2b2b2b;
+    --text-color: #333;
+    --dark-text-color: #dddddd;
+    --light-bg: #f9f9f9;
+    --dark-card-bg: #333;
+    --border-color: #ccc;
+    --dark-border-color: #444;
+    --footer-text-color: #008e55;
+    --icon-hover-scale: 1.2;
+    --anim-duration: 0.8s;
+    --anim-delay-step: 0.2s;
+    --easing-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
+    --easing-bounce: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 body {
   transition: background 0.3s;
   background: var(--primary-color);
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .sidebar {
@@ -111,7 +111,7 @@ body {
 }
 
 .sidebar-menu li a:hover {
-  background: #a05d9e25;
+  background: #00ab6738;
   color: var(--primary-color);
 }
 
@@ -212,7 +212,7 @@ body.dark-mode .logo-text {
 }
 
 .sidebar-menu a.active {
-  background: #a05d9e25;
+  background: #00ab6738;
   font-weight: 500;
 }
 
@@ -247,7 +247,7 @@ body.dark-mode .sidebar-menu a.active {
   justify-content: center;
   align-items: center;
   font-size: 32px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .about-headding-border-bottom {
@@ -331,13 +331,13 @@ body.dark-mode .sidebar-menu a.active {
   color: white;
   font-weight: 600;
   margin: 0;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .about-content-card h1 {
   font-size: 36px;
   color: var(--secondary-color);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .about-footer {
@@ -351,7 +351,7 @@ body.dark-mode .sidebar-menu a.active {
   color: var(--primary-color);
   text-align: center;
   font-size: 36px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .contact-heading-border {
@@ -387,7 +387,7 @@ body.dark-mode .sidebar-menu a.active {
   font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .contact-subtext {
@@ -471,7 +471,7 @@ body.dark-mode .sidebar-menu a.active {
   color: var(--primary-color);
   font-weight: 700;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .product-card-container {
@@ -510,7 +510,7 @@ body.dark-mode .sidebar-menu a.active {
   color: var(--secondary-color);
   margin-bottom: 15px;
   font-weight: 600;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .product-card p {
@@ -607,16 +607,19 @@ body.dark-mode .product-card p {
 }
 
 .home-heading {
-  font-size: 50px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
+  color: #00AB66;
 }
 
 .carousel-title {
   font-size: 48px;
-  font-weight: 600;
+  color: #00AB66;
+  font-weight: 700;
   margin-bottom: 20px;
   transition: opacity 0.5s ease-in-out;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .intro-text {
@@ -629,15 +632,15 @@ body.dark-mode .product-card p {
   text-align: justify;
 }
 
-.features {
+/* .features {
   margin-top: 40px;
-}
+} */
 
 .features h2 {
   font-size: 26px;
   color: var(--primary-color);
   margin-bottom: 20px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .feature-grid {
@@ -670,7 +673,7 @@ body.dark-mode .product-card p {
   font-size: 18px;
   color: #222;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Changed to Poppins */
 }
 
 .feature-card p {

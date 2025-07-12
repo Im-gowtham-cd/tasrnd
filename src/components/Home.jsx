@@ -36,32 +36,6 @@ export default function Home() {
                 </a>
             </div>
 
-            <div className="features">
-                <h2>What We Offer</h2>
-                <div className="feature-grid">
-                    <div className="feature-card">
-                        <FaTools className="feature-icon" />
-                        <h3>Terminal Automation</h3>
-                        <p>Seamless automation of fuel terminals, control systems & workflows.</p>
-                    </div>
-                    <div className="feature-card">
-                        <FaNetworkWired className="feature-icon" />
-                        <h3>Industrial IoT</h3>
-                        <p>Smart connectivity for industrial sensors and controllers.</p>
-                    </div>
-                    <div className="feature-card">
-                        <FaCogs className="feature-icon" />
-                        <h3>Embedded Systems</h3>
-                        <p>Custom firmware and board-level solutions for industrial use cases.</p>
-                    </div>
-                    <div className="feature-card">
-                        <FaFlask className="feature-icon" />
-                        <h3>R&D & Testing</h3>
-                        <p>In-house product research, development, and quality testing.</p>
-                    </div>
-                </div>
-            </div>
-
             <div className="contact-info">
                 <p><FaPhoneAlt className="icon" /> +91 8939319191</p>
                 <p><FaEnvelope className="icon" /> admin@tasrnd.in, sales@tasrnd.in</p>
